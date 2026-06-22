@@ -36,7 +36,7 @@ export default function Footer() {
           <div className="col-span-2 md:col-span-1">
             <div className="flex items-center gap-2 mb-4">
               <img
-                src="/images/neuralnext-logo.svg"
+                src="/images/neuralnext-logo.png"
                 alt="NeuralNext"
                 className="w-8 h-8"
               />

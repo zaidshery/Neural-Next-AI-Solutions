@@ -1,5 +1,75 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#4f46e5"/><stop offset="1" stop-color="#7c3aed"/></linearGradient></defs>
-  <rect width="64" height="64" rx="18" fill="url(#g)"/>
-  <path d="M18 45V19h7l14 16V19h7v26h-7L25 29v16z" fill="white"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">NeuralNext AI Solutions favicon icon</title>
+  <desc id="desc">Dark circular NeuralNext logo with a neon purple-to-blue ring and glossy gradient N mark.</desc>
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="42%" r="68%">
+      <stop offset="0%" stop-color="#1e1754"/>
+      <stop offset="50%" stop-color="#10143a"/>
+      <stop offset="100%" stop-color="#050816"/>
+    </radialGradient>
+    <linearGradient id="ring" x1="8%" y1="10%" x2="92%" y2="90%">
+      <stop offset="0%" stop-color="#bd28ff"/>
+      <stop offset="46%" stop-color="#7257ff"/>
+      <stop offset="72%" stop-color="#0078ff"/>
+      <stop offset="100%" stop-color="#09e6ff"/>
+    </linearGradient>
+    <linearGradient id="tube" x1="16%" y1="12%" x2="88%" y2="88%">
+      <stop offset="0%" stop-color="#ff7aff"/>
+      <stop offset="22%" stop-color="#8d22ff"/>
+      <stop offset="55%" stop-color="#2b35ff"/>
+      <stop offset="82%" stop-color="#0098ff"/>
+      <stop offset="100%" stop-color="#25f4ff"/>
+    </linearGradient>
+    <linearGradient id="tubeDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#331160"/>
+      <stop offset="45%" stop-color="#17105f"/>
+      <stop offset="100%" stop-color="#022b74"/>
+    </linearGradient>
+    <linearGradient id="highlight" x1="0%" y1="0%" x2="100%" y2="70%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity=".95"/>
+      <stop offset="38%" stop-color="#f7d8ff" stop-opacity=".78"/>
+      <stop offset="70%" stop-color="#89ecff" stop-opacity=".7"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity=".18"/>
+    </linearGradient>
+    <filter id="softGlow" x="-55%" y="-55%" width="210%" height="210%">
+      <feGaussianBlur stdDeviation="1.8" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.34  0 0 0 0 0.05  0 0 0 0 1  0 0 0 .82 0" result="glow"/>
+      <feMerge>
+        <feMergeNode in="glow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="ringGlow" x="-35%" y="-35%" width="170%" height="170%">
+      <feGaussianBlur stdDeviation="1.1333" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <clipPath id="circleClip">
+      <circle cx="32.0" cy="32.0" r="30.1333"/>
+    </clipPath>
+  </defs>
+  <rect width="64" height="64" fill="none"/>
+  <g clip-path="url(#circleClip)">
+    <circle cx="32.0" cy="32.0" r="30.1333" fill="url(#bg)"/>
+    <circle cx="32.0" cy="32.0" r="27.2" fill="#0b1030" opacity=".55"/>
+    <path d="M 12.0 49.3333 C 18.6667 56.0 40.0 60.0 53.3333 44.0" fill="none" stroke="#0048ff" stroke-width="1.5333" opacity=".22"/>
+  </g>
+  <circle cx="32.0" cy="32.0" r="29.6667" fill="none" stroke="url(#ring)" stroke-width="2.0667" filter="url(#ringGlow)"/>
+  <circle cx="32.0" cy="32.0" r="27.8" fill="none" stroke="#ffffff" stroke-width="0.2933" opacity=".18"/>
+  <g filter="url(#softGlow)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 21.8667 45.0667 L 21.8667 20.1333" stroke="url(#tubeDark)" stroke-width="12.8" opacity=".86"/>
+    <path d="M 42.1333 19.8667 L 42.1333 44.4" stroke="url(#tubeDark)" stroke-width="12.8" opacity=".86"/>
+    <path d="M 21.9333 20.2667 L 42.0667 44.2667" stroke="url(#tubeDark)" stroke-width="13.4667" opacity=".88"/>
+    <path d="M 21.6 44.4 L 21.6 20.0" stroke="url(#tube)" stroke-width="11.1333"/>
+    <path d="M 42.4 20.0 L 42.4 44.4" stroke="url(#tube)" stroke-width="11.1333"/>
+    <path d="M 21.6 20.0 L 42.4 44.4" stroke="url(#tube)" stroke-width="11.5333"/>
+    <path d="M 19.4 44.0 L 19.4 20.8" stroke="url(#highlight)" stroke-width="1.4" opacity=".88"/>
+    <path d="M 40.2 20.9333 L 40.2 42.9333" stroke="url(#highlight)" stroke-width="1.4" opacity=".84"/>
+    <path d="M 19.8667 19.1333 L 41.4 43.6" stroke="url(#highlight)" stroke-width="1.3333" opacity=".82"/>
+    <path d="M 21.6 44.4 L 21.6 20.0" stroke="#ffffff" stroke-width="0.4533" opacity=".5"/>
+    <path d="M 42.4 20.0 L 42.4 44.4" stroke="#bff7ff" stroke-width="0.4533" opacity=".5"/>
+    <path d="M 21.6 20.0 L 42.4 44.4" stroke="#d7faff" stroke-width="0.5067" opacity=".42"/>
+  </g>
 </svg>

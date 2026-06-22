@@ -51,8 +51,8 @@ export const viewport: Viewport = {
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en" className={`${manrope.variable} ${spaceGrotesk.variable}`}>
-      <body className="antialiased">
+    <html lang="en" className={`${manrope.variable} ${spaceGrotesk.variable}`} suppressHydrationWarning>
+      <body className="antialiased" suppressHydrationWarning>
         <a className="skip-link" href="#main-content">
           Skip to content
         </a>

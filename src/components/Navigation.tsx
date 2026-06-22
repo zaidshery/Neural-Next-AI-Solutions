@@ -49,7 +49,7 @@ export default function Navigation() {
             }}
           >
             <img
-              src="/images/neuralnext-logo.svg"
+              src="/images/neuralnext-logo.png"
               alt="NeuralNext"
               className="w-8 h-8"
             />
